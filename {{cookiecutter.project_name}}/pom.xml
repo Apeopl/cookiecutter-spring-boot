@@ -8,10 +8,10 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.taijihuabao</groupId>
-    <artifactId>demo</artifactId>
+    <groupId>{{cookiecutter.package_first}}.{{cookiecutter.package_second}}</groupId>
+    <artifactId>{{cookiecutter.project_name}}</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>{{cookiecutter.project_name}}</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
