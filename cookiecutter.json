@@ -1,0 +1,6 @@
+{
+	"project_name": "tjbh-demo",
+	"package-first": "com",
+	"package-second": "taijihuabao",
+	"_copy_without_render": [".mvn/", "*mvnw", "*mvnw.cmd"]
+}
