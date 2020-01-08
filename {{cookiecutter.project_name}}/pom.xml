@@ -8,11 +8,11 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>{{cookiecutter.package_first}}.{{cookiecutter.package_second}}</groupId>
+    <groupId>{{cookiecutter.package_name}}</groupId>
     <artifactId>{{cookiecutter.project_name}}</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>{{cookiecutter.project_name}}</name>
-    <description>Demo project for Spring Boot</description>
+    <description>{{cookiecutter.project_describe}}</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -24,16 +24,15 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <dependency>
+        <!-- 接入数据库需开启 -->
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-
-
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

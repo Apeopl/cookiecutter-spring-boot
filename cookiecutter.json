@@ -1,6 +1,7 @@
 {
 	"project_name": "tjbh-demo",
-	"package_first": "com",
-	"package_second": "taijihuabao",
+	"package_name": "com.taijihuabao",
+	"project_describe": "Demo project for Spring Boot",
+	"port": 8080,
 	"_copy_without_render": [".mvn/", "*mvnw", "*mvnw.cmd"]
 }

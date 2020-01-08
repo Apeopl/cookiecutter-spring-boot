@@ -1,4 +1,4 @@
-package com.taijihuabao.demo;
+package {{cookiecutter.package_name}}.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
