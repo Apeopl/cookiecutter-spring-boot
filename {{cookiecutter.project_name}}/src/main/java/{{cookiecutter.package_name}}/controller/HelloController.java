@@ -1,4 +1,4 @@
-package {{cookiecutter.package_first}}.{{cookiecutter.package_second}}.controller;
+package {{cookiecutter.package_name}}.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

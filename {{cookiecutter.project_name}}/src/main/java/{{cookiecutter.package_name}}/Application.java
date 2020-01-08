@@ -1,4 +1,4 @@
-package {{cookiecutter.package_first}}.{{cookiecutter.package_second}};
+package {{cookiecutter.package_name}};
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
