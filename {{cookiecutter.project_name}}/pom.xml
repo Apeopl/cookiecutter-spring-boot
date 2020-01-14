@@ -8,9 +8,9 @@
         <version>2.2.2.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>{{cookiecutter.package_name}}</groupId>
+    <groupId>{{cookiecutter.package_first}}.{{cookiecutter.package_second}}</groupId>
     <artifactId>{{cookiecutter.project_name}}</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>{{cookiecutter.project_version}}</version>
     <name>{{cookiecutter.project_name}}</name>
     <description>{{cookiecutter.project_describe}}</description>
 
